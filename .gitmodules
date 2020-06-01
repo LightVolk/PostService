@@ -2,3 +2,6 @@
 	path = CommonInfrastructure
 	url = https://github.com/LightVolk/CommonInfrastructure
 
+[submodule "PochtaApiClient"]
+	path = PochtaApiClient
+	url = https://github.com/LightVolk/PochtaApiClient
