@@ -7,11 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostServiceWebApi", "PostSe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{26533F81-6A81-4010-BC84-EC83ED60DFFA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PochtaTestClient", "..\..\PochtaTestClient\PochtaTestClient.csproj", "{64734772-083F-4042-BD31-29836D4E1AB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PochtaTestClient", "..\..\PochtaTestClient\PochtaTestClient.csproj", "{C91E6605-8B1D-483D-BA2E-5FD29254B53B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PochtaApiClient", "..\..\PochtaApiClient\PochtaApiClient.csproj", "{8733C047-D177-427D-9916-FA779F7A3217}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonInfrastructure", "..\..\CommonInfrastructure\CommonInfrastructure.csproj", "{6E94FB25-03F2-4E79-AE64-205CC8D56D83}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonInfrastructure", "..\..\CommonInfrastructure\CommonInfrastructure.csproj", "{6FF63FED-05A9-471D-9108-E7AB65F20A8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PochtaApiClient", "..\..\PochtaApiClient\PochtaApiClient.csproj", "{9DD2D320-27CB-4943-A391-AFAF07D322DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,24 +23,24 @@ Global
 		{0A3968C9-98E1-462F-A002-58DE8B4CC085}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A3968C9-98E1-462F-A002-58DE8B4CC085}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A3968C9-98E1-462F-A002-58DE8B4CC085}.Release|Any CPU.Build.0 = Release|Any CPU
-		{64734772-083F-4042-BD31-29836D4E1AB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{64734772-083F-4042-BD31-29836D4E1AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{64734772-083F-4042-BD31-29836D4E1AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{64734772-083F-4042-BD31-29836D4E1AB5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8733C047-D177-427D-9916-FA779F7A3217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8733C047-D177-427D-9916-FA779F7A3217}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8733C047-D177-427D-9916-FA779F7A3217}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8733C047-D177-427D-9916-FA779F7A3217}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6FF63FED-05A9-471D-9108-E7AB65F20A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6FF63FED-05A9-471D-9108-E7AB65F20A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6FF63FED-05A9-471D-9108-E7AB65F20A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6FF63FED-05A9-471D-9108-E7AB65F20A8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C91E6605-8B1D-483D-BA2E-5FD29254B53B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C91E6605-8B1D-483D-BA2E-5FD29254B53B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C91E6605-8B1D-483D-BA2E-5FD29254B53B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C91E6605-8B1D-483D-BA2E-5FD29254B53B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E94FB25-03F2-4E79-AE64-205CC8D56D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E94FB25-03F2-4E79-AE64-205CC8D56D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E94FB25-03F2-4E79-AE64-205CC8D56D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E94FB25-03F2-4E79-AE64-205CC8D56D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DD2D320-27CB-4943-A391-AFAF07D322DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD2D320-27CB-4943-A391-AFAF07D322DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD2D320-27CB-4943-A391-AFAF07D322DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD2D320-27CB-4943-A391-AFAF07D322DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{64734772-083F-4042-BD31-29836D4E1AB5} = {26533F81-6A81-4010-BC84-EC83ED60DFFA}
+		{C91E6605-8B1D-483D-BA2E-5FD29254B53B} = {26533F81-6A81-4010-BC84-EC83ED60DFFA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AC3EE8D9-2291-4C12-82C3-5F17FEA6D379}
